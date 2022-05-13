@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@600;700&family=Roboto:wght@700&display=swap');
 :root {
   --primary-color: white;
   --second-color: #fa4a0c;
@@ -87,6 +88,18 @@ a {
   letter-spacing: 0.1px;
   background: none;
   border: 1px solid white;
+}
+.rectangle{
+  display: flex;
+  justify-content: center;
+}
+.rectangle_left{
+  position: relative;
+  top: -170px; 
+}
+.rectangle_right{
+  position: relative;
+  left: -35px; top: -60px;
 }
 a {
   text-decoration: none;
@@ -263,6 +276,13 @@ a {
   .btn-2 > a {
     color: #fa4a0c;
   }
+  .scale_mobile_pic{
+    width: 200px;
+  }
+  .rectangle_left{
+    margin-left: 30px;
+    margin-top: 30px;
+  }
   .btn-4 {
     padding: 12px 0px;
     height: 64px;
@@ -288,6 +308,7 @@ a {
     font-size: 36px;
     line-height: 42.5px;
     color: #252b42;
+    margin: 0 20px ;
   }
   .foodApp > h4 {
     color: #737373;
@@ -327,6 +348,9 @@ a {
   }
   .orderNow {
     background: #252b42;
+  }
+  .orderNow > h4{
+    margin: 0 20px;
   }
   .footer-logo {
     position: absolute;
